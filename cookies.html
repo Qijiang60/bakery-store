@@ -2,8 +2,8 @@
 layout: page
 title: Cookies
 ---
-{% for cookie in site.cookies %}
-	<div class="cookie">
-		<h2><a href="{{ cookie.url }}">{{ cookie.title }}</a></h2>
+{% for kjs in site.kj %}
+	<div>
+		<h2><a href="{{ kjs.url }}">{{ kjs.title }}</a></h2>
 	</div>
 {% endfor %}
